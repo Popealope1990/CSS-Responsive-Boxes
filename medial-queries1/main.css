@@ -6,7 +6,39 @@ body {
   background: blanchedalmond;
 }
 
+/* .container{
+  display: flex;
+} */
+
 .a{
-  min-width: 100%;
-  min-height: 40px;
+  display: flex;
+  min-width: 90%;
+  min-height: 100px;
+  border: 2px dotted red;
+  margin: 10px;
+}
+.b .c{
+  display: flex;
+  flex: 1
+}
+
+.b{
+  display: flex;
+  min-width: 80%;
+  min-height: 600px;
+  border: 2px dashed violet;
+  margin: 10px;
+}
+
+.c{
+  display: flex;
+  min-width: 20%;
+  min-height: 600px;
+  border: 2px groove orange;
+  margin: 10px;
+}
+
+@media (min-width: 500px){
+
+
 }
