@@ -6,53 +6,48 @@ body {
   background: blanchedalmond;
 }
 
-/* .container{
+.container{
   display: flex;
-} */
+  flex-wrap: wrap;
+}
 
 .a{
-  /* display: flex;
-  min-width: 90%;
+  display: flex;
+  min-width: 95%;
   min-height: 100px;
   border: 2px dotted red;
-  margin: 10px; */
+  margin: 5px;
+  text-align: center;
+}
 
-  width: 200px;
-  height: 100px;
-  border: 1px solid #d1d1d1;
-}
-/* .b .c{
-  display: inline; */
-  /* flex-wrap: wrap; */
-}
 
 .b{
-  /* display: flex;
-  min-width: 400px;
-  min-height: 600px;
+  display: flex;
+  min-width: 68%;
+  min-height: 400px;
   border: 2px dashed violet;
-  margin: 10px; */
-  width: 200px;
-  height: 100px;
-  float: left;
-  border: 1px solid #d1d1d1;
-
+  margin: 5px;
+  text-align: center;
 }
 
 .c{
-  /* display: flex;
-  min-width: 100px;
-  min-height: 600px;
+  display: flex;
+  min-width: 25.5%;
+  height: 400px;
   border: 2px groove orange;
-  margin: 10px; */
-
-  width: 100px;
-height:200px;
-float: left;
-border: 1px solid #d1d1d1;
+  margin: 5px;
+  text-align: center;
 }
 
-@media (min-width: 500px){
-
-
+@media (max-width: 600px){
+  .a{
+    min-width: 95%;
+  }
+  .b{
+    min-width: 95%;
+  }
+  .c{
+    min-width: 95%;
+    max-height: 100px;
+  }
 }
