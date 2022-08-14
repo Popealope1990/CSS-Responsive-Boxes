@@ -11,31 +11,45 @@ body {
 } */
 
 .a{
-  display: flex;
+  /* display: flex;
   min-width: 90%;
   min-height: 100px;
   border: 2px dotted red;
-  margin: 10px;
+  margin: 10px; */
+
+  width: 200px;
+  height: 100px;
+  border: 1px solid #d1d1d1;
 }
-.b .c{
-  display: flex;
-  flex: 1
+/* .b .c{
+  display: inline; */
+  /* flex-wrap: wrap; */
 }
 
 .b{
-  display: flex;
-  min-width: 80%;
+  /* display: flex;
+  min-width: 400px;
   min-height: 600px;
   border: 2px dashed violet;
-  margin: 10px;
+  margin: 10px; */
+  width: 200px;
+  height: 100px;
+  float: left;
+  border: 1px solid #d1d1d1;
+
 }
 
 .c{
-  display: flex;
-  min-width: 20%;
+  /* display: flex;
+  min-width: 100px;
   min-height: 600px;
   border: 2px groove orange;
-  margin: 10px;
+  margin: 10px; */
+
+  width: 100px;
+height:200px;
+float: left;
+border: 1px solid #d1d1d1;
 }
 
 @media (min-width: 500px){
