@@ -1,5 +1,5 @@
 *{
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   margin: 5px;
 }
 
@@ -10,8 +10,12 @@ body {
 .container{
   display: flex;
   flex-wrap: wrap;
+  /* border: 1px solid orange; */
 }
 
+.container *{
+  border: 1px solid orange;
+}
 
 .a{
   display: flex;
@@ -23,9 +27,9 @@ body {
 
 .b{
   display: flex;
-  width: 68%;
+  width: 72%;
   height: 200px;
-  margin-right: 100px;
+  margin-right: 90px;
   text-align: center;
 }
 
@@ -56,10 +60,36 @@ body {
   text-align: center;
 }
 
-@media (max-width: 600px){
+@media (max-width: 650px){
 .a{
   height: 100px;
   width: 98%;
 }
 
+.b{
+  width: 98%;
+  margin-right: 0%;
+}
+
+.c{
+  width: 30%;
+  height: 100px;
+  margin-left: 12.5px;
+}
+
+.d{
+  width: 30%;
+  height: 100px;
+}
+
+.e{
+  width: 30%;
+  height: 100px;
+}
+
+.f{
+  width: 98%;
+  height: 100px;
+  margin-top: 0%;
+}
 }
